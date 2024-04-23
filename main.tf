@@ -13,11 +13,11 @@ provider "google" {
 
   # enter project name
   #     e.g., "my-project-####"
-  project     = "terra-dome-420900"
+  project     = "terra-dome-####"
   
   # enter project's key
   #     e.g., "my-project-####-####.json"
-  credentials = "terra-dome-420900-6642f8c08c0c.json"
+  credentials = "terra-dome-####-####.json"
 }
 
 # 1. Create Bucket
