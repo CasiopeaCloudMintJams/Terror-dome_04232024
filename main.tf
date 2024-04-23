@@ -50,6 +50,6 @@ module "storage_bucket_object" {
 }
 
 # 4. Output url for Static Web Page
-output "Bucket_url" {
+output "Bucket_Static_Url" {
   value = "https://storage.googleapis.com/${google_storage_bucket.static-site.name}/index.html"
 }
